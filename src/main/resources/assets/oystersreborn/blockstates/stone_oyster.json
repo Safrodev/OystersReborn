@@ -1,0 +1,8 @@
+{
+	"variants": {
+		"facing=south": { "model": "oystersreborn:block/stone_oyster" },
+		"facing=west": { "model": "oystersreborn:block/stone_oyster", "y": 90 },
+		"facing=north": { "model": "oystersreborn:block/stone_oyster", "y": 180 },
+		"facing=east": { "model": "oystersreborn:block/stone_oyster", "y": 270 }
+	}
+}

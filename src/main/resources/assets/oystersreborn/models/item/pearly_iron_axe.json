@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "oystersreborn:items/pearly_iron_axe"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "oystersreborn",
+  "version": "${version}",
+
+  "name": "Oysters Reborn",
+  "description": "Resource generation using oysters - port of the original mod Oysters.",
+  "authors": [
+    "Safro"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+
+  "license": "MIT License",
+  "icon": "assets/oystersreborn/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "safro.oysters.reborn.OystersReborn"
+    ],
+    "client": [
+      "safro.oysters.reborn.OystersRebornClient"
+    ]
+  },
+  "mixins": [
+
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.11.3",
+    "fabric": "*",
+    "minecraft": "1.17.x",
+    "java": ">=16"
+  }
+}

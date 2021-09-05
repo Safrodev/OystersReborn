@@ -1,0 +1,47 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "oystersreborn:bone_meal_pearl",
+      "oystersreborn:clean_pearl",
+      "oystersreborn:blemished_pearl_block",
+      "oystersreborn:coal_pearl",
+      "oystersreborn:pearl_acacia",
+      "oystersreborn:pearl_birch",
+      "oystersreborn:pearl_dark_oak",
+      "oystersreborn:pearl_dirt",
+      "oystersreborn:pearl_grass",
+      "oystersreborn:pearl_jungle",
+      "oystersreborn:pearl_oak",
+      "oystersreborn:pearl_spruce",
+      "oystersreborn:pearl_stone",
+      "oystersreborn:sand_pearl",
+      "oystersreborn:string_pearl",
+      "oystersreborn:pearl_from_gravel"
+    ]
+  },
+  "criteria": {
+    "has_the_thing": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "oystersreborn:blemished_pearl"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "oystersreborn:blemished_oyster"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_the_thing",
+      "has_the_recipe"
+    ]
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    "bbb",
+    "SSS",
+    "bbb"
+  ],
+  "key": {
+    "b": {
+      "item": "oystersreborn:sand_pearl"
+    },
+    "S": {
+      "item": "oystersreborn:stone_pearl"
+    }
+  },
+  "result": {
+    "item": "minecraft:gravel",
+    "count": 16
+  }
+}

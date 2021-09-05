@@ -1,0 +1,40 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "oystersreborn:pearly_iron_sword",
+      "oystersreborn:pearly_iron_shovel",
+      "oystersreborn:pearly_iron_axe",
+      "oystersreborn:pearly_iron_pickaxe",
+      "oystersreborn:pearly_shears",
+      "oystersreborn:pearly_iron_helmet",
+      "oystersreborn:pearly_iron_chestplate",
+      "oystersreborn:pearly_iron_leggings",
+      "oystersreborn:pearly_iron_boots"
+    ]
+  },
+  "criteria": {
+    "has_the_thing": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "oystersreborn:pearly_iron_ingot"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "oystersreborn:pearly_iron_ingot"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_the_thing",
+      "has_the_recipe"
+    ]
+  ]
+}

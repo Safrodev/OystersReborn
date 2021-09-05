@@ -1,0 +1,19 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    "bb ",
+    "bS ",
+    " S "
+  ],
+  "key": {
+    "b": {
+      "item": "oystersreborn:pearly_diamond"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "oystersreborn:pearly_diamond_axe"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    "bbb",
+    "b b",
+    "b b"
+  ],
+  "key": {
+    "b": {
+      "item": "oystersreborn:pearly_diamond"
+    }
+  },
+  "result": {
+    "item": "oystersreborn:pearly_diamond_leggings"
+  }
+}

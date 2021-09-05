@@ -1,0 +1,16 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    "bbb",
+    "bbb",
+    "bbb"
+  ],
+  "key": {
+    "b": {
+      "item": "oystersreborn:blemished_pearl"
+    }
+  },
+  "result": {
+    "item": "oystersreborn:clean_pearl"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "oystersreborn:pearly_diamond_sword",
+      "oystersreborn:pearly_diamond_shovel",
+      "oystersreborn:pearly_diamond_axe",
+      "oystersreborn:pearly_diamond_pickaxe",
+      "oystersreborn:pearly_diamond_helmet",
+      "oystersreborn:pearly_diamond_chestplate",
+      "oystersreborn:pearly_diamond_leggings",
+      "oystersreborn:pearly_diamond_boots"
+    ]
+  },
+  "criteria": {
+    "has_the_thing": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "oystersreborn:pearly_diamond"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "oystersreborn:pearly_diamond"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_the_thing",
+      "has_the_recipe"
+    ]
+  ]
+}

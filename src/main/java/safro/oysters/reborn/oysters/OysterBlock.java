@@ -96,6 +96,11 @@ public class OysterBlock extends BlockWithEntity implements Waterloggable {
     }
 
     @Override
+    public BlockRenderType getRenderType(BlockState state) {
+        return BlockRenderType.MODEL;
+    }
+
+    @Override
     protected void appendProperties(StateManager.Builder<Block, BlockState> stateBuilder) {
         stateBuilder.add(WATERLOGGED, FACING);
     }

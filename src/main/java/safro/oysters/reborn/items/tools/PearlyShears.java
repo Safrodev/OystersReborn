@@ -68,6 +68,6 @@ public class PearlyShears extends ShearsItem {
     @Override
     @Environment(EnvType.CLIENT)
     public void appendTooltip(ItemStack itemStack, World world, List<Text> list, TooltipContext tooltipContext) {
-        list.add(new TranslatableText("oysters.tooltip.shears").formatted(Formatting.AQUA));
+        list.add(new TranslatableText("oystersreborn.tooltip.shears").formatted(Formatting.AQUA));
     }
 }

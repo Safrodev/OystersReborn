@@ -4,13 +4,13 @@
   "version": "${version}",
 
   "name": "Oysters Reborn",
-  "description": "Resource generation using oysters - port of the original mod Oysters.",
+  "description": "Resource generation using oysters - port of the original mod Oysters",
   "authors": [
     "Safro"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "homepage": "https://www.curseforge.com/minecraft/mc-mods/oysters-reborn",
+    "sources": "https://github.com/Safrodev/OystersReborn"
   },
 
   "license": "MIT License",
@@ -32,7 +32,7 @@
   "depends": {
     "fabricloader": ">=0.11.3",
     "fabric": "*",
-    "minecraft": "1.17.x",
-    "java": ">=16"
+    "minecraft": "1.18.x",
+    "java": ">=17"
   }
 }

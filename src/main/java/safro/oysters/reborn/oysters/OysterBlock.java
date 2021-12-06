@@ -68,7 +68,7 @@ public class OysterBlock extends BlockWithEntity implements Waterloggable {
             return Blocks.AIR.getDefaultState();
         } else {
             if (blockState_1.get(WATERLOGGED)) {
-                world_1.getFluidTickScheduler().schedule(blockPos_1, Fluids.WATER, Fluids.WATER.getTickRate(world_1));
+                world_1.createAndScheduleFluidTick(blockPos_1, Fluids.WATER, Fluids.WATER.getTickRate(world_1));
             }
 
             return super.getStateForNeighborUpdate(blockState_1, direction_1, blockState_2, world_1, blockPos_1, blockPos_2);

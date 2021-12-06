@@ -1,14 +1,10 @@
 package safro.oysters.reborn;
 
 import net.fabricmc.api.ModInitializer;
-import net.fabricmc.fabric.api.biome.v1.BiomeModifications;
-import net.fabricmc.fabric.api.biome.v1.BiomeSelectors;
 import net.fabricmc.fabric.api.client.itemgroup.FabricItemGroupBuilder;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.Identifier;
-import net.minecraft.world.biome.Biome;
-import net.minecraft.world.gen.GenerationStep;
 import safro.oysters.reborn.blocks.OysterBlockManager;
 import safro.oysters.reborn.items.OysterItemManager;
 import safro.oysters.reborn.oysters.OysterBreed;
@@ -35,7 +31,5 @@ public class OystersReborn implements ModInitializer {
 		OysterPearlManager.init();
 		OysterBlockManager.init();
 		OysterItemManager.init();
-
-		BiomeModifications.addFeature(BiomeSelectors.categories(Biome.Category.OCEAN), GenerationStep.Feature.VEGETAL_DECORATION, WorldGenRegistry.WorldGenFeatures.OYSTER_FEATURE_KEY);
 	}
 }

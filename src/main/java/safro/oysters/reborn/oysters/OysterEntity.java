@@ -122,10 +122,9 @@ public class OysterEntity extends BlockEntity implements SidedInventory {
     }
 
     @Override
-    public NbtCompound writeNbt(NbtCompound nbt) {
+    public void writeNbt(NbtCompound nbt) {
         super.writeNbt(nbt);
         Inventories.writeNbt(nbt, this.inventory);
-        return nbt;
     }
 
     @Override
